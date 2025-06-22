@@ -1,6 +1,5 @@
 package com.thepeople.centimetertometerconverter
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.*
 import androidx.activity.ComponentActivity
@@ -25,7 +24,7 @@ class MainActivity : ComponentActivity() {
                 this.editText.text.clear()
             } else {
                 Toast.makeText(baseContext, "The input field is empty! Enter some value.",
-                    Toast.LENGTH_LONG).show();
+                    Toast.LENGTH_LONG).show()
             }
         }
     }
